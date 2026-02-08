@@ -82,7 +82,7 @@ chunks = [
     for i in range(0, len(audio_array), chunk_samples)
 ]
 
-print(f"🔹 Split into {len(chunks)} chunks of ~{CHUNK_DURATION}s each")
+print(f" Split into {len(chunks)} chunks of ~{CHUNK_DURATION}s each")
 
 # ================= TRANSCRIBE & CENSOR =================
 for idx, chunk in chunks:
