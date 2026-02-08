@@ -13,8 +13,39 @@ CHUNK_DURATION = 1  # seconds per chunk for transcription
 BEEP_FREQ = 1000
 BEEP_AMPLITUDE = 0.3
 PROFANITY = {
-    "fuck", "shit", "bitch", "asshole",
-    "damn", "cunt", "motherfucker", "cocksucker", "ass"
+    "fuck", 
+    "shit", 
+    "bitch", 
+    "asshole",
+    "damn", 
+    "cunt", 
+    "motherfucker", 
+    "cocksucker", 
+    "ass",
+    "arsehole",
+    "asshat",
+    "bastard",
+    "bollocks",
+    "blowjob",
+    "bullshit",
+    "ching chong",
+    "cracker",
+    "dick",
+    "dickhead",
+    "cock",
+    "faggot",
+    "fucker",
+    "fucking",
+    "nigger",
+    "pussy",
+    "nigga",
+    "pajeet",
+    "paki",
+    "prick",
+    'retard',
+    "slut",
+    "shitter",
+    "whore"
 }
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
